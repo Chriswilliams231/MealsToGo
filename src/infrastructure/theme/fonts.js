@@ -20,4 +20,4 @@ export const fontSizes = {
     h3: "45px",
     h2: "56px",
     h1: "112px",
-}
+};
