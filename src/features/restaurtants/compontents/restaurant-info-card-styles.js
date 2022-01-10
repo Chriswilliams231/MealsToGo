@@ -9,6 +9,7 @@ import { Card } from 'react-native-paper';
 //The props help you load whats in your themed folder
 export const RestaurantCard = styled(Card)`
     background-color: ${(props) => props.theme.colors.bg.primary};
+    margin-bottom: ${(props) => props.theme.space[3]};
 `;
 
 export const RestaurantCardCover = styled(Card.Cover)`
