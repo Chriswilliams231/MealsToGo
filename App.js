@@ -11,8 +11,9 @@ import { useFonts as useLato, Lato_400Regular, } from '@expo-google-fonts/lato';
 
 import { RestaurantsScreen } from './src/features/restaurtants/screens/restaurtants.screen'
 import { theme } from './src/infrastructure/theme'
-
+import { RestaurantsRequest } from './src/services/restaurants/restaurants.service';
 const Tab = createBottomTabNavigator();
+
 
 const Settings = () => <Text>Settings</Text>
 const Map = () => <Text>Map</Text>
